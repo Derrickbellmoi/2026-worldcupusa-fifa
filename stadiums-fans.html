@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n-title="metaTitleStadiums">World Cup 2026 | Stadiums, Fan Festival & Tickets</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html">WC<span>2026</span></a>
+  <nav class="nav" id="nav">
+    <a href="index.html" data-i18n="navTeams">Teams</a>
+    <a href="players.html" data-i18n="navPlayers">Players</a>
+    <a href="stadiums-fans.html" class="active" data-i18n="navStadiums">Stadiums & Fans</a>
+  </nav>
+  <div class="language-switcher" aria-label="Language selector">
+    <label for="languageSelect" data-i18n="languageLabel">Language</label>
+    <select id="languageSelect">
+      <option value="en">English</option>
+      <option value="fr">Français</option>
+      <option value="es">Español</option>
+    </select>
+  </div>
+  <button class="menu-btn" id="menuBtn">☰</button>
+</header>
+
+<section class="section festival">
+  <div class="section-title">
+    <p class="eyebrow">Fan Festival</p>
+    <h2>Stadium & Fan Festival</h2>
+    <p>See host stadiums, fan festival notes, and safe ticket-purchase guidance.</p>
+  </div>
+
+  <div class="split">
+
+    <div>
+      <p>
+
+    </div>
+
+    <div class="festival-video">
+      <iframe
+        src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Freel%2F1262063879406767%2F&show_text=false&width=560&t=0"
+        width="100%"
+        height="400"
+        style="border:none;overflow:hidden"
+        scrolling="no"
+        frameborder="0"
+        allowfullscreen="true"
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+      </iframe>
+    </div>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title">
+    <p class="eyebrow" data-i18n="initialEyebrow">Initial Matches</p>
+    <h2 data-i18n="initialTitle">Where Teams Play First</h2>
+    <p class="initialNote">
+      Table will be updated accordingly from FIFA’s official match schedule for all teams.
+    </p>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Team</th>
+          <th>First Match</th>
+          <th>Date</th>
+          <th>Initial Stadium</th>
+          <th>Host City</th>
+        </tr>
+      </thead>
+
+      <tbody id="initialMatches">
+        <tr>
+          <td>USA</td>
+          <td>USA vs Paraguay</td>
+          <td>13 June</td>
+          <td>SoFi Stadium Los Angeles</td>
+          <td>Los Angeles, USA</td>
+        </tr>
+
+        <tr>
+          <td>Canada</td>
+          <td>Canada vs Bosnia and Herzegovina</td>
+           <td>12 June</td>
+          <td>Toronto Stadium</td>
+          <td>Toronto, Canada</td>
+        </tr>
+
+        <tr>
+          <td>Mexico</td>
+          <td>Mexico vs South Africa</td>
+           <td>11 June</td>
+          <td>Estadio Azteca</td>
+          <td>Mexico City, Mexico</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title">
+    <p class="eyebrow" data-i18n="stadiumsEyebrow">16 Stadiums</p>
+    <h2 data-i18n="stadiumsTitle">Host Venues</h2>
+  </div>
+  <div class="stadium-grid" id="stadiumGrid"></div>
+</section>
+
+<section class="section festival">
+  <div class="section-title">
+    <p class="eyebrow" data-i18n="festivalEyebrow">Fan Festival</p>
+    <h2 data-i18n="festivalTitle">Public Viewing & Entertainment</h2>
+  </div>
+  <div class="split"></div>
+    <div>
+      <p data-i18n="festivalText">FIFA Fan Festival events are central gathering places for fans, with live match broadcasts, food, music, entertainment, cultural programming, merchandise, and family-friendly activities.</p>
+      <ul class="clean-list">
+        <li data-i18n="li1">Large-screen match viewing</li>
+        <li data-i18n="li2">Live music and local culture</li>
+        <li data-i18n="li3">Food and beverage vendors</li>
+        <li data-i18n="li4">Photo zones and fan activities</li>
+        <li data-i18n="li5">Official merchandise areas</li>
+      </ul>
+    </div>
+<div class="festival-media">
+  <a href="assets/images/Fan Festival.jpg" target="_blank">
+    <img src="assets/images/Fan Festival.jpg"
+         alt="FIFA Fan Festival">
+  </a>
+</div>
+</section>
+
+<section class="section tickets">
+  <div class="section-title">
+    <p class="eyebrow" data-i18n="ticketsEyebrow">Tickets</p>
+    <h2 data-i18n="ticketsTitle">How to Purchase Tickets Safely</h2>
+  </div>
+  <div class="cards four">
+    <article class="card"><h3 data-i18n="ticket1Title">1. Use FIFA only</h3><p data-i18n="ticket1Text">Go directly to FIFA.com/tickets. Avoid random social media sellers or suspicious links.</p></article>
+    <article class="card"><h3 data-i18n="ticket2Title">2. Create FIFA ID</h3><p data-i18n="ticket2Text">Sign in or create your FIFA ID before buying. Ticket access usually requires an official account.</p></article>
+    <article class="card"><h3 data-i18n="ticket3Title">3. Check availability</h3><p data-i18n="ticket3Text">Use official sales phases, last-minute sales, or FIFA’s official marketplace when available.</p></article>
+  </div>
+</section>
+
+<footer class="footer"><p data-i18n="footerStadiums">Always verify ticket information from FIFA’s official ticket page before purchasing.</p></footer>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
